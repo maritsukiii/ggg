@@ -19,6 +19,9 @@ body {
   }
   
   .lyrics-container {
+    display: flex
+    flex-direction: column
+    align-items: center
     max-height: 300px;
     overflow-y: hidden;
     align-self: center;
